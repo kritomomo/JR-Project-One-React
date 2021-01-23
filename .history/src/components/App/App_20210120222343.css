@@ -1,0 +1,14 @@
+.layout {
+  max-width: 1000px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  background-image: url(./assets/bg.png);
+  bac
+}
+
+.layout__page {
+  flex: 1;
+}

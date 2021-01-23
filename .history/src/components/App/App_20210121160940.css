@@ -1,0 +1,15 @@
+.layout {
+  max-width: 1000px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  background-image: url(./assets/bg.png);
+  background-repeat: no-repeat;
+  /* min-height: 100vh; */
+}
+
+.layout__page {
+  flex: 1;
+}

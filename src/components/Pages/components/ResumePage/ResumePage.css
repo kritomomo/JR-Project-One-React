@@ -1,0 +1,19 @@
+.resumePage__sub {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resumePage__sub > div {
+  flex-basis: calc(50% - 32px);
+}
+
+
+.resumePage__sub + .resumePage__sub {
+  margin-top: 32px;
+}
+
+
+
+
+
+

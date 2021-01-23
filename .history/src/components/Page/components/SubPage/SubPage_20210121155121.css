@@ -1,0 +1,60 @@
+.pt-page {
+    width: 100%;
+    max-width: 1032px;
+    height: 0;
+    position: absolute;
+    opacity: 0;
+    top: auto;
+    padding: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    background-color: transparent;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .pt-page .section-inner {
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.1);
+  }
+  
+  .no-js .pt-page {
+    position: relative;
+  }
+  
+  .pt-page-content {
+    position: absolute;
+    width: 100%;
+  }
+  
+  .pt-page-current,
+  .no-js .pt-page {
+    visibility: visible;
+    z-index: 90;
+    opacity: 1;
+    overflow: visible;
+    height: auto;
+  }
+  
+  .pt-page.pt-page-current .portfolio-grid {
+    display: block;
+  }
+  
+  .no-js .pt-page * {
+    height: auto;
+  }
+  
+  .no-js body {
+    overflow: auto;
+  }

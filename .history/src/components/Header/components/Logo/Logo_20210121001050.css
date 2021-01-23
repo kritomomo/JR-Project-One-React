@@ -1,0 +1,9 @@
+.logo {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 20px;
+  }
+  
+  .logo__highlight {
+    color: #a77133;
+  }

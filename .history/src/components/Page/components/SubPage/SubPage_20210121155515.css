@@ -1,0 +1,10 @@
+.page-header {
+    background-color:#2eca7f;
+    color: white;
+    background-image: url('.');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20 px;
+    padding: 32px 64px; 
+}

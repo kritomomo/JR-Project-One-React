@@ -1,0 +1,181 @@
+.resumePage__sub {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resumePage__sub > div {
+  flex-basis: calc(50% - 32px);
+}
+
+
+
+
+
+
+.resumeSub__title {
+  margin-top: 0;
+}
+
+.timelines {
+  border-left: 2px solid #dadada;
+  padding: 8px 0 8px 48px;
+}
+
+.timelines > div {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.timeline {
+  position: relative;
+  padding: 16px 20px;
+  border-radius: 4px;
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  border-left: 2px solid #377e98;
+  margin-left: -5px;
+}
+
+.timeline::before {
+  content: "";
+  width: 48px;
+  border-bottom: 2px solid #377e98;
+  position: absolute;
+  left: -48px;
+  top: 8px;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  left: -52px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 2px solid #377e98;
+  top: 2px;
+  background: white;
+}
+
+.experience__title {
+  margin: 0 0 8px;
+}
+
+.experience__meta {
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
+
+.experience__year {
+  color: #377e98;
+}
+
+.experience__divider {
+  border-right: 1px solid #dadada;
+}
+
+.experience__company {
+  color: #49515d;
+}
+
+.experience__description {
+  line-height: 1.75;
+}
+
+.resumePage__sub + .resumePage__sub {
+  margin-top: 32px;
+}
+
+.resumeSub__titleHighlight {
+  color: #377e98;
+}
+
+.skill {
+  margin: 16px 0;
+}
+
+.skill__title {
+  margin: 0 0 8px;
+  font-size: 0.8rem;
+}
+
+.skill__level {
+  position: relative;
+  height: 16px;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.skill__level:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #377e98;
+}
+
+.skill__level--webDesign:after {
+  width: 80%;
+}
+
+.skill__level--graphicDesign:after {
+  width: 70%;
+}
+
+.skill__level--printDesign:after {
+  width: 75%;
+}
+
+
+
+.services__titleHightLight {
+  color: #377e9a;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  margin: 48px 0;
+}
+
+.serviceItem {
+  width: calc(100%/3);
+  margin: 0 32px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.serviceItem__imageContainer {
+  width: 125px;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 100%;
+}
+
+.serviceItem__image {
+  width:55px;
+}
+
+.serviceItem__name {
+  font-size: 18px;
+}
+
+.serviceItem__description {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.clients {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.clientItem {
+  width: 150px;
+}

@@ -1,0 +1,31 @@
+.resumeSub__title {
+    margin-top: 0;
+}
+
+.resumeSub__titleHighlight {
+    color: #377e98;
+}
+
+.skill {
+    margin: 16px 0;
+}
+    
+.skill__title {
+    margin: 0 0 8px;
+    font-size: 0.8rem;
+}
+
+.skill__level {
+    position: relative;
+    height: 16px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.skill__level:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #377e98;
+}

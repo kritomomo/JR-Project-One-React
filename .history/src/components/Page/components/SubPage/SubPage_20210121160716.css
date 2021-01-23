@@ -1,0 +1,28 @@
+.pt-page {
+    border-radius: 20px;
+    background: white;
+}
+
+.page-header {
+    background-color:#2eca7f;
+    color: white;
+    background-image: url('./assets/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20 px;
+    padding: 32px 64px; 
+}
+
+.page-content {
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 30px 30px 50px 30px;
+}
+
+.header-title {
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+}

@@ -1,0 +1,15 @@
+.main{
+  background-color: #f5f5f5;
+  background-image: url(./assets/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.layout {
+  max-width: 1000px;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
