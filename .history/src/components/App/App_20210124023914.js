@@ -40,23 +40,26 @@ const obj = {
 //     }
 // }
 
+
+
+
+
 const App = ({
   render,
-  }) => {
-
-  const changePage = (pageName) => {
+}) => (
+  const changePage = { pageName } => {
     obj.currentPage = pageName;
     render();
-  }
-
-  return (
+}
+  
+return(
     <div className="main">
       <div className="layout">
         <div className="layout__header">
-          <Header currentPage={obj.currentPage} changePage={changePage} />
+          <Header currentPage={obj.currentPage} changePage={changePage}/>
         </div>
         <div className="layout__page">
-          <Pages currentPage={obj.currentPage} />
+          <Pages currentPage={obj.currentPage} obj={obj} />
         </div>
         <div className="layout__footer">
           <Footer />
@@ -64,8 +67,6 @@ const App = ({
       </div>
     </div>
   )
-}
-
 
 
 export default App;

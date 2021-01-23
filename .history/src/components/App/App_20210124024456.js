@@ -48,7 +48,6 @@ const App = ({
     obj.currentPage = pageName;
     render();
   }
-
   return (
     <div className="main">
       <div className="layout">
@@ -56,7 +55,7 @@ const App = ({
           <Header currentPage={obj.currentPage} changePage={changePage} />
         </div>
         <div className="layout__page">
-          <Pages currentPage={obj.currentPage} />
+          <Pages currentPage={obj.currentPage} obj={obj} />
         </div>
         <div className="layout__footer">
           <Footer />

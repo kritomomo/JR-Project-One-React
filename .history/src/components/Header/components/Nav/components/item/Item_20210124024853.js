@@ -18,7 +18,8 @@ const Item = ({
         event.preventDefault();
         
         console.log('CLICKED', pageName);
-        changePage(pageName);
+        obj.currentPage = pageName;
+        render();
     }
 
     return (

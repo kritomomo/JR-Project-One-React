@@ -12,7 +12,7 @@ const Header = ({
             <Logo />
         </div>
         <div className="header___right">
-            <NavBar currentPage={currentPage} changePage={changePage}/>
+            <NavBar currentPage={currentPage} obj={obj} render={render}/>
         </div>
     </div>
 )

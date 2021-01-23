@@ -5,7 +5,7 @@ const Item = ({
     active,
     href,
     pageName,
-    changePage,
+    changePage
     children,
 }) => {
     let className = 'navbar__item ';
@@ -18,7 +18,8 @@ const Item = ({
         event.preventDefault();
         
         console.log('CLICKED', pageName);
-        changePage(pageName);
+        obj.currentPage = pageName;
+        render();
     }
 
     return (

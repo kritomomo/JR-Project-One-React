@@ -6,9 +6,9 @@ import Footer from "../Footer";
 import { PAGE } from "../../constants";
 
 // const currentPage = PAGE.RESUME;
-const obj = {
-  currentPage: PAGE.HOME,
-};
+// const obj = {
+//   currentPage: PAGE.HOME,
+// };
 
 // class App extends React.Component {
 //   constructor(props) {
@@ -40,32 +40,27 @@ const obj = {
 //     }
 // }
 
-const App = ({
-  render,
-  }) => {
+export default App;
 
-  const changePage = (pageName) => {
-    obj.currentPage = pageName;
-    render();
-  }
 
-  return (
-    <div className="main">
-      <div className="layout">
-        <div className="layout__header">
-          <Header currentPage={obj.currentPage} changePage={changePage} />
-        </div>
-        <div className="layout__page">
-          <Pages currentPage={obj.currentPage} />
-        </div>
-        <div className="layout__footer">
-          <Footer />
-        </div>
-      </div>
-    </div>
-  )
-}
 
+// const App = ({
+//   render,
+// }) => (
+//     <div className="main">
+//       <div className="layout">
+//         <div className="layout__header">
+//           <Header currentPage={obj.currentPage} obj={obj} render={render}/>
+//         </div>
+//         <div className="layout__page">
+//           <Pages currentPage={obj.currentPage} obj={obj} />
+//         </div>
+//         <div className="layout__footer">
+//           <Footer />
+//         </div>
+//       </div>
+//     </div>
+//   );
 
 
 export default App;

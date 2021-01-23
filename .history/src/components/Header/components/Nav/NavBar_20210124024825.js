@@ -11,7 +11,7 @@ const NavBar = ({
         <Item
             active={currentPage === PAGE.HOME}
             pageName={PAGE.HOME}
-            changePage={changePage}
+            changePage={change}
             href="HOME"
         >
             Home
@@ -20,7 +20,7 @@ const NavBar = ({
         <Item
             active={currentPage === PAGE.RESUME}
             pageName={PAGE.RESUME}
-            changePage={changePage}
+            changePage={change}
             href="RESUME"
         >
             Resume
@@ -29,7 +29,7 @@ const NavBar = ({
         <Item
             active={currentPage === PAGE.SERVICES}
             pageName={PAGE.SERVICES}
-            changePage={changePage}
+            changePage={change}
             href="SERVICES"
         >
             Services
@@ -38,7 +38,7 @@ const NavBar = ({
         <Item
             active={currentPage === PAGE.BLOG}
             pageName={PAGE.BLOG}
-            changePage={changePage}
+            changePage={change}
             href="BLOG"
         >
             Blog
@@ -47,7 +47,7 @@ const NavBar = ({
         <Item
             active={currentPage === PAGE.CONTACT}
             pageName={PAGE.CONTACT}
-            changePage={changePage}
+            changePage={change}
             href="CONTACT"
         >
             Contact

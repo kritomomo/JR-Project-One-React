@@ -18,7 +18,7 @@ const Item = ({
         event.preventDefault();
         
         console.log('CLICKED', pageName);
-        changePage(pageName);
+        changePage(pageName)
     }
 
     return (

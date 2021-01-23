@@ -5,14 +5,14 @@ import NavBar from './components/Nav';
 
 const Header = ({ 
     currentPage,
-    changePage,
+    change
 }) => (
     <div className="header">
         <div className="header__left">
             <Logo />
         </div>
         <div className="header___right">
-            <NavBar currentPage={currentPage} changePage={changePage}/>
+            <NavBar currentPage={currentPage} obj={obj} render={render}/>
         </div>
     </div>
 )

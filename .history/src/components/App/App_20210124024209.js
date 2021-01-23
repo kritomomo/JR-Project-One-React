@@ -40,31 +40,17 @@ const obj = {
 //     }
 // }
 
+
+
 const App = ({
   render,
-  }) => {
-
+}) => (
   const changePage = (pageName) => {
     obj.currentPage = pageName;
     render();
-  }
-
-  return (
-    <div className="main">
-      <div className="layout">
-        <div className="layout__header">
-          <Header currentPage={obj.currentPage} changePage={changePage} />
-        </div>
-        <div className="layout__page">
-          <Pages currentPage={obj.currentPage} />
-        </div>
-        <div className="layout__footer">
-          <Footer />
-        </div>
-      </div>
-    </div>
-  )
 }
+  
+
 
 
 
