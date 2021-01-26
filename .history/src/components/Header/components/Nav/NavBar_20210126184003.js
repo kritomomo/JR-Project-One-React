@@ -26,7 +26,7 @@ const NavBar = ({
     changePage,
 }) => (
     <div className="navbar">
-        {ITEMS.map((item) => (
+        {.map((item) => (
             <Item
                 key={item.key}
                 active={currentPage === item.key}

@@ -3,22 +3,7 @@ import Item from './components/Item'
 import './NavBar.css';
 import { PAGE } from '../../../../constants';
 
-const ITEMS = [{
-    key: PAGE.HOME,
-    text: 'Home',
-}, {
-    key: PAGE.RESUME,
-    text: 'Resume',
-}, {
-    key: PAGE.SERVICES,
-    text: 'Services',
-}, {
-    key: PAGE.BLOG,
-    text: 'Blog',
-}, {
-    key: PAGE.CONTACT,
-    text: 'Contact',
-}];
+const ITEMS = 
 
 
 const NavBar = ({ 
@@ -26,7 +11,7 @@ const NavBar = ({
     changePage,
 }) => (
     <div className="navbar">
-        {ITEMS.map((item) => (
+        {.map((item) => (
             <Item
                 key={item.key}
                 active={currentPage === item.key}
