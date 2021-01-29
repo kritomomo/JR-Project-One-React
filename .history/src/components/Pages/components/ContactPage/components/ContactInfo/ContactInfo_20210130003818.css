@@ -1,0 +1,32 @@
+.contact-info-block{
+    position: relative;
+    text-align: left;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 10px 10px 10px 0;
+}
+
+.ci-icon{
+    position: absolute;
+    top: 50%;
+    margin-top: -18px;
+    width: 36px;
+    height: 36px;
+    background-color: #fafafa;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.icon-style{
+    position: relative;
+    font-size: 18px;
+    color: #2eca7f;
+    text-align: center;
+    line-height: 36px;
+}
+
+.ci-text{
+    position: relative;
+                padding-left: 50px;
+}

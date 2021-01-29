@@ -1,0 +1,13 @@
+.block-title{
+    border : 1px solid red;
+}
+
+.f{
+    font-size: 27px;
+    margin: 5px 0 25px;
+    font-weight: bold;
+}
+
+.l{
+    color: #2eca7f;
+}

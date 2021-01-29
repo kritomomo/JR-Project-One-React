@@ -1,0 +1,13 @@
+.block-title{
+    border : 1px solid red;
+}
+
+.hf{
+    font-size: 21px;
+    margin: 5px 0 25px;
+    font-weight: bold;
+}
+
+.span{
+    color: #2eca7f;
+}
